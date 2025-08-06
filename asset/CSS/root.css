@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.3s ease;
+    scroll-behavior: smooth;
+}
+
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background-color: #198754;
+    --hover-color: #0b5c36;
+    --text-color: #2c2c2c;
+    --title-color: #0a2c07;
+    --primary-color: #1c1c1c;
+    --secondary-color: #343a40;
+    --tertiary-color: #495057;
+    --dark-color: #000;
+    --gray-color: #6c757d;
+    --primary-white-color: #fff;
+    --secondary-white-color: #f8f9fa;
+    --tertiary-white-color: #e9ecef;
+    --primary-border-color: 1px solid #dee2e6;
+    --secondary-border-color: 1px solid #ced4da;
+    --tertiary-border-color: 1px solid #adb5bd;
+    --primary-shadow-color: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    --secondary-shadow-color: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    --tertiary-shadow-color: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    --primary-radius: 0.25rem;
+    --body-background-color: #f8f9fa;
+    --secondary-radius: 10px;
+    --tertiary-radius: 1.2rem;
+    --super-font-weight: 700;
+    --bold-font-weight: 600;
+    --medium-font-weight: 500;
+    --regular-font-weight: 400;
+    --light-font-weight: 300;
+    --webkit-scrollbar-track-color: #1b5c35;
+    --webkit-scrollbar-thumb-color: #ecffff;
+    --webkit-scrollbar-thumb-hover-color: #cceeff;
+    }
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--webkit-scrollbar-track-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--webkit-scrollbar-thumb-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--webkit-scrollbar-thumb-hover-color);
+}
+
+::selection {
+    background: var(--hover-color);
+    color: var(--primary-white-color);
+}
+
+/* Body Styles */
+body {
+    background-color: var(--body-background-color);
+    color: var(--text-color);
+    font-weight: var(--regular-font-weight);
+    line-height: 1.6;
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-weight: var(--super-font-weight);
+}
+
+p {
+    color: var(--text-color);
+    font-weight: var(--regular-font-weight);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+.d-flex-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-flex-2 {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.d-grid-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+}
+
+.d-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 1.5rem;
+}

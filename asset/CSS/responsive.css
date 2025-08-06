@@ -1,0 +1,548 @@
+@media (max-width: 1440px) {
+    .navbar-brand img {
+        width: 150px !important;
+        height: auto;
+    }
+    .main-content-item-1 h1 {
+        font-size: 5.5rem;
+    }
+    .medicine-brand-carousel {
+        margin-top: 4rem;
+    }
+    .main-content-item-2-box h1 {
+        font-size: 5rem;
+        margin-bottom: 4rem;
+    }
+    .main-content-item-2-box p {
+        font-size: 2rem;
+        width: 100%;
+    }
+    .medicine-brand-item img {
+        width: 80px;
+        height: 60px;
+    }
+
+    .who_we_are_box h1,
+     .services-container .services-title h1,
+     .testimonial-container .testimonials-title h1,
+     .team-container .team-title h1,
+     .faqs-container .faqs-title h1,
+     .blog-container .blog-title h1 {
+        font-size: 5rem;;
+    }
+    .who_we_are_box p {
+        width: 60%;
+    }
+    .why_choose_us_item-2 h1 {
+        font-size: 6rem;
+    }
+
+    .blog-item {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-content {
+        height: 80vh;
+    }
+    .main-content-container {
+        height: 60vh;
+    }
+    .navbar-brand img {
+        width: 100px !important;
+        height: auto;
+    }
+    .main-content-item-1 h1 {
+        font-size: 4rem;
+    }
+    .medicine-brand-carousel {
+        margin-top: 4rem;
+    }
+
+    .main-content-item-2-box h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    .main-content-item-2-box p {
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .who_we_are_col-1 .content .content-box-1 i {
+        width: 50px;
+        height: 50px;
+        font-size: 4rem;
+    }
+
+    .who_we_are_col-1 .content .content-box-1 .cont h5 {
+        font-size: 3rem;
+    }
+
+    .who_we_are_col-1 .content .content-box-1 .cont p {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+    .who_we_are_col-1 .content .content-box-2,
+    .who_we_are_col-1 .content .content-box-1 {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-gap: 2rem;
+    }
+
+    .who_we_are_col-1 .content .content-box-2 i {
+        width: 50px;
+        height: 50px;
+        font-size: 4rem;
+    }
+
+    .who_we_are_col-1 .content .content-box-2 .cont h5 {
+        font-size: 3rem;
+    }
+
+    .who_we_are_col-1 .content .content-box-2 .cont p {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+   .who_we_are_col-1 .content-2 .location-1 p {
+    font-size: 1.5rem;
+   }
+
+   .who_we_are_col-1 .content-2 .location-1 a {
+    font-size: 1.7rem;
+   }
+
+   .why_choose_us_item-2 h1 {
+    font-size: 4rem;
+   }
+   .other-box .box-1 h1 {
+    font-size: 2.5rem;
+   }
+   .other-box .box-2 h1 {
+    font-size: 2.5rem;
+   }
+   .other-box .box-1 p {
+    font-size: 1.5rem;
+   }
+   .other-box .box-2 p {
+    font-size: 1.5rem;
+   }
+   .other-box .box-1 .cont a {
+    font-size: 2rem;
+   }
+   .other-box .box-2 .cont a {
+    font-size: 2rem;
+   }
+   .other-box .box-1 .cont img {
+    width: 60px;
+    height: 60px;
+   }
+   .other-box .box-2 .cont img {
+    width: 60px;
+    height: 60px;
+   }
+
+   .banner-1-row .cont-1 h1 {
+    font-size: 4rem;
+   }
+   .banner-1-row .cont-1 p {
+    font-size: 1.5rem;
+   }
+   .banner-1-row .cont-2 a {
+    font-size: 1.7rem;
+   }
+
+   .services-container {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+   }
+   .testimonial-container {
+    padding: 100px 10px;
+   }
+   .services-container .services-row .services-item {
+    padding: 10px;
+   }
+   .services-container .services-row .services-item img {
+    width: 44px;
+    height: 44px;
+   }
+   .services-container .services-row .services-item h3 {
+    font-size: 2.5rem;
+   }
+   .services-container .services-row .services-item p {
+    font-size: 1.8rem;
+   }
+
+   .team-item .content {
+    height: 70px;
+   }
+   .team-item .content h1 {
+    font-size: 2rem;
+   }
+   .team-item .content p {
+    font-size: 2rem;
+   }
+   .team-social-handles li i {
+    width: 25px;
+    height: 25px;
+    font-size: 2.2rem;
+   }
+   .faqs-container {
+    padding: 100px 20px;
+   }
+   .accordion-header .accordion-button {
+    font-size: 2rem;
+   }
+   .accordion-body {
+    font-size: 1.8rem;
+   }
+   .blog-item .content h4 {
+    font-size: 2rem;
+    width: 60px;
+    height: 40px;
+   }
+   .blog-item .content h1 {
+    font-size: 2rem;
+   }
+   .blog-item a {
+    width: 50px;
+    height: 50px;
+    font-size: 4.5rem;
+   }
+
+}
+
+@media (max-width: 768px) {
+    .main-content-container {
+        padding: 20px 20px;
+        height: 60vh;
+    }
+    .main-content-box {
+        width: 90% !important;
+        margin: 100px auto 0 !important;
+        top: 35%;
+        transform: translateY(-50%);
+        
+    }
+    .navbar-brand img {
+        width: 80px !important;
+        height: auto;
+    }
+    .main-content-item-1 {
+        width: 100%;
+        display: none;
+    }
+    .main-content-item-1 h1 {
+        font-size: 3rem;
+    }
+    .medicine-brand-carousel {
+        margin-top: 2rem;
+    }
+    .main-content-item-2-box {
+        text-align: center;
+    }
+    
+    .main-content-item-2-box h1 {
+        font-size: 5rem;
+        margin-bottom: 1rem;
+        color: var(--primary-white-color);
+    }
+    .main-content-item-2-box p {
+        font-size: 2rem;
+        width: 100%;
+        color: var(--tertiary-white-color);
+    }
+    .who_we_are_container {
+        padding: 50px 0;
+    }
+    .who_we_are_box p {
+        width: 90%;
+    }
+     .who_we_are_col-1 .content .content-box-1 {
+        display: flex;
+    }
+
+    .sec-three-row .box-1:nth-child(2) {
+        border-right: none;
+        padding-right: 50px;
+    }
+    .banner-1-row {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .banner-1-row .cont-1 h1 {
+        margin: 0 auto;
+        font-size: 4.5rem;
+        margin-bottom: 2rem;
+    }
+    .banner-1-row .cont-1 p {
+        margin: 0 auto;
+        font-size: 2rem;
+    }
+
+    .blog-container {
+        padding: 100px 30px;
+    }
+    .blog-item .content {
+        top: 50% !important;
+    }
+    .blog-item a {
+        top: 80%;
+        width: 50px;
+        height: 50px;
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .main-content {
+        margin-top: 80px;
+        height: 70vh;
+    }
+    .main-content-container {
+        height: 60vh;
+    }
+    .main-content-box {
+        top: 35%;
+    }
+    .main-content-item-2-box h1 {
+        width: 100%;
+        font-size: 4rem;
+    }
+    .main-content-item-2-box p {
+        font-size: 1.7rem;
+    }
+
+    .who_we_are_box h5 {
+        font-size: 2rem;
+    }
+    .who_we_are_box h1 {
+        font-size: 3.5rem;
+        width: 90%;
+        margin: auto;
+    }
+    .who_we_are_box p {
+        font-size: 1.5rem;
+    }
+    .who_we_are_col-1 .content .content-box-1 .cont p {
+        font-size: 1.7rem;
+    }
+    .who_we_are_col-1 .content .content-box-2 .cont p {
+        font-size: 1.7rem;
+    }
+
+    .why_choose_us_container {
+        padding: 100px 10px;
+    }
+
+    .sec-three-row .box-1 {
+        border: none !important;
+    }
+
+    .banner-1-row {
+        margin-top: 30px;
+    }
+    .banner-1 {
+        padding: 70px 15px;;
+    }
+    .banner-1-row .cont-1 h1 {
+        font-size: 3rem;
+        width: 90%;
+    }
+    .services-container .services-title h5,
+    .testimonial-container .testimonials-title h5,
+    .team-container .team-title h5,
+    .faqs-container .faqs-title h5,
+    .blog-container .blog-title h5 {
+        font-size: 2rem;
+    }
+    .services-container .services-title h1, 
+    .testimonial-container .testimonials-title h1,
+    .team-container .team-title h1,
+    .faqs-container .faqs-title h1,
+    .blog-container .blog-title h1 { 
+        font-size: 4rem;
+    }
+    .services-container .services-title p, 
+    .testimonial-container .testimonials-title p,
+    .team-container .team-title p,
+    .faqs-container .faqs-title p,
+    .blog-container .blog-title p {
+        font-size: 1.7rem;
+        width: 100%;
+    }
+
+    .testimonials-row .owl-nav .owl-prev, 
+    .testimonials-row .owl-nav .owl-next,
+    .why_choose_us_carousel .owl-nav .owl-prev,
+    .why_choose_us_carousel .owl-nav .owl-next {
+    width: 30px;
+    height: 30px;
+    }
+    .testimonials-row .owl-nav .owl-next span,
+    .testimonials-row .owl-nav .owl-prev span,
+    .why_choose_us_carousel .owl-nav .owl-prev span,
+    .why_choose_us_carousel .owl-nav .owl-next span {
+        font-size: 3.5rem;
+        line-height: 15px;
+    }
+    .team-social-handles li i {
+        font-size: 3rem;
+        width: 35px;
+        height: 35px;
+    }
+
+    .blog-row {
+        grid-template-columns: repeat(auto-fit,minmax(250px, auto));
+    }
+}
+
+@media (max-width: 375px) {
+    .who_we_are_col-2 .content .reviews {
+        padding: 5px;
+        margin-left: 25px;
+    }
+    .who_we_are_col-2 .content .reviews .profiles .img {
+        width: 45px;
+        height: 45px;
+    }
+    .who_we_are_col-2 .content .reviews .rate .star i {
+        font-size: 1.7rem;
+    }
+     .who_we_are_col-2 .content .reviews .rate p {
+        font-size: 1.7rem;
+     }
+     .who_we_are_col-1 .content-2 .location-1 i {
+        font-size: 1.8rem;
+     }
+     .who_we_are_col-1 .content-2 .location-1 p,
+     .who_we_are_col-1 .content-2 .location-1 a {
+        font-size: 1.4rem;
+     }
+     .who_we_are_col-1 .content .content-box-1 {
+        display: grid;
+        grid-template-columns: 1fr auto;
+     }
+}
+
+@media (max-width: 320px) {
+    .main-content-box {
+        top: 35%;
+        left: 5.5%;
+    }
+    .main-content-container {
+        padding: 0px;
+    }
+    .main-content-item-2-box h1 {
+        font-size: 3rem;
+    }
+    .main-content-item-2-box p {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .who_we_are_box h5,
+    .why_choose_us_item-2 h5,
+    .faqs-container .faqs-title h5,
+    .blog-container .blog-title h5 {
+        font-size: 1.5rem;
+    }
+    .who_we_are_box h1,
+    .why_choose_us_item-2 h1,
+    .faqs-container .faqs-title h1,
+    .blog-container .blog-title h1 {
+        font-size: 2.5rem;
+    }
+    .who_we_are_box p,
+    .why_choose_us_item-2 p,
+    .faqs-container .faqs-title p,
+    .blog-container .blog-title p {
+        font-size: 1.5rem;
+    }
+    .progress-box p {
+        font-size: 1.7rem;
+    }
+    .progress {
+        height: 15px;
+    }
+    .progress-bar {
+        font-size: 1.7rem;
+    }
+    .who_we_are_col-1 .content-2 .location-1 i {
+        font-size: 1.3rem;
+    }
+    .who_we_are_col-1 .content-2 .location-1 p,
+    .who_we_are_col-1 .content-2 .location-1 a {
+        font-size: 1.3rem;
+    }
+    .who_we_are_col-2 .content .reviews {
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        padding: 4px;
+        column-gap: .2rem;
+        margin-left: 20px;
+    }
+    .who_we_are_col-2 .content .reviews .profiles .img {
+        width: 30px;
+        height: 30px;
+    }
+    .who_we_are_col-2 .content .reviews .rate .star i {
+        font-size: 1.1rem;
+    }
+    .who_we_are_col-2 .content .reviews .rate p {
+        font-size: 1.1rem;
+    }
+
+    .sec-three-container, 
+    .banner-1 {
+        padding: 50px 10px;
+    }
+
+   .sec-three-container .sec-three-row {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    .sec-three-row .box-1 h3 {
+        font-size: 3rem;
+    }
+    .sec-three-row .box-1 h2 {
+        font-size: 2rem;
+    }
+    .sec-three-row .box-1 p {
+        font-size: 1.5rem;
+    }
+    .team-social-handles li i {
+        width: 25px;
+        height: 25px;
+        font-size: 2.5rem;
+    }
+
+    .accordion-header {
+        font-size: 1.8rem;
+    }
+    .accordion-body {
+        font-size: 1.5rem;
+    }
+
+    .blog-item .content h4 {
+        font-size: 1.8rem;
+        width: 40px;
+        height: 20px;
+    }
+    .blog-item .content h1 {
+        font-size: 1.8rem;
+    }
+
+    .blog-item a {
+        width: 40px;
+        height: 40px;
+        font-size: 3.5rem;
+    }
+
+}
