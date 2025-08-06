@@ -383,21 +383,24 @@
     .testimonial-container .testimonials-title h5,
     .team-container .team-title h5,
     .faqs-container .faqs-title h5,
-    .blog-container .blog-title h5 {
+    .blog-container .blog-title h5,
+    .product-title h5 {
         font-size: 2rem;
     }
     .services-container .services-title h1, 
     .testimonial-container .testimonials-title h1,
     .team-container .team-title h1,
     .faqs-container .faqs-title h1,
-    .blog-container .blog-title h1 { 
+    .blog-container .blog-title h1,
+    .product-title h1 { 
         font-size: 4rem;
     }
     .services-container .services-title p, 
     .testimonial-container .testimonials-title p,
     .team-container .team-title p,
     .faqs-container .faqs-title p,
-    .blog-container .blog-title p {
+    .blog-container .blog-title p,
+    .product-title p {
         font-size: 1.7rem;
         width: 100%;
     }
@@ -474,19 +477,22 @@
     .who_we_are_box h5,
     .why_choose_us_item-2 h5,
     .faqs-container .faqs-title h5,
-    .blog-container .blog-title h5 {
+    .blog-container .blog-title h5,
+    .product-title h5 {
         font-size: 1.5rem;
     }
     .who_we_are_box h1,
     .why_choose_us_item-2 h1,
     .faqs-container .faqs-title h1,
-    .blog-container .blog-title h1 {
+    .blog-container .blog-title h1,
+    .product-title h1 {
         font-size: 2.5rem;
     }
     .who_we_are_box p,
     .why_choose_us_item-2 p,
     .faqs-container .faqs-title p,
-    .blog-container .blog-title p {
+    .blog-container .blog-title p,
+    .product-title p  {
         font-size: 1.5rem;
     }
     .progress-box p {
