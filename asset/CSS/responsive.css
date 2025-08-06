@@ -228,7 +228,7 @@
         
     }
     .navbar-brand img {
-        width: 80px !important;
+        width: 150px !important;
         height: auto;
     }
     .main-content-item-1 {
@@ -299,7 +299,7 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     .main-content {
         margin-top: 80px;
         height: 70vh;
@@ -329,6 +329,26 @@
     .who_we_are_box p {
         font-size: 1.5rem;
     }
+    .who_we_are_col-2 .content {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        margin: auto;
+    }
+    .who_we_are_col-2 .content .reviews .profiles .img {
+        width: 40px;
+        height: 40px;
+    }
+    .who_we_are_col-2 .content .reviews .rate .star i {
+        font-size: 1.5rem;
+    }
+    .who_we_are_col-2 .content .reviews .rate p {
+        font-size: 1.5rem;
+    }
+    .who_we_are_col-1 .content .content-box-1 {
+        display: grid;
+        grid-template-columns: 1fr auto;
+     }
     .who_we_are_col-1 .content .content-box-1 .cont p {
         font-size: 1.7rem;
     }
@@ -338,6 +358,11 @@
 
     .why_choose_us_container {
         padding: 100px 10px;
+    }
+
+    .sec-three-container .sec-three-row {
+        width: 100%;
+        margin: auto;
     }
 
     .sec-three-row .box-1 {
@@ -473,6 +498,10 @@
     .progress-bar {
         font-size: 1.7rem;
     }
+    .who_we_are_col-1 .content .content-box-1 {
+        display: grid;
+        grid-template-columns: 1fr auto;
+     }
     .who_we_are_col-1 .content-2 .location-1 i {
         font-size: 1.3rem;
     }
