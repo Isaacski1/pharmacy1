@@ -1255,7 +1255,8 @@
 
 .blog-item a {
     position: absolute;
-    top: 0;
+    bottom: 40px;
+    right: 0;
     right: 30px;
     width: 70px;
     height: 70px;
