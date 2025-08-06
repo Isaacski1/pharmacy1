@@ -81,3 +81,35 @@ $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 });
 // =========================== why_choose_us_carousel End ======================
+
+// =========================== Product Listing Start ======================
+var owl = $('.product-container-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    nav: true,
+    dots: false,
+    autoplay:false,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
+    responsive:{
+        0:{
+            items:1
+        },
+
+        768:{
+            items:2
+        },
+        1024:{
+            items:3
+        }
+    }
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[5000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+});
+// =========================== why_choose_us_carousel End ======================
